@@ -1,0 +1,54 @@
+.names {
+  display: flex;
+}
+
+div {
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  label, input{
+    display: block;
+    width: auto;
+  }
+ 
+  .write {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+ 
+#describe{
+  width: 465px;
+  height: 150px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  line-height: 0.1em;
+}
+  
+#file{
+    padding: 10px 20px;
+    margin: 8px 0;
+    width: 200px;
+    display: inline-block
+}
+
+#button{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+

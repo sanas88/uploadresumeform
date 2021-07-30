@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+        <title>Submission Form</title>
+        <link href= "myStyles.css" type="text/css" rel="stylesheet" >
+        </head>
+        <body>
+            <div>
+                <form action="response.php" method="POST">
+                    <div class="names">
+                        <div>
+                            <label for="firstName">First name</label> 
+                            <input class="write" type="text" name="firstname" required>
+                        </div>
+                        <div>
+                            <label for="lastName">Last name</label> 
+                            <input class="write" type="text" name="lastname" required>
+                        </div> 
+                    </div>  
+                    <div class="names">
+                        <div>
+                            <label for="email">Email</label> 
+                            <input class="write" type="email" name="email" required>
+                        </div>
+                        <div>
+                            <label for="phone">Telephone number</label> 
+                            <input class="write" type="tel" name="phone" required>
+                        </div>
+                    </div>
+                    <div class="names">
+                        <div>
+                            <label for="add">Address 1</label>
+                            <input  class="write" type="text" name="address">
+                        </div>
+                        <div>
+                            <label for="add">Address 2</label>
+                            <input  class="write" type="text" name="address">
+                        </div>
+                    </div>
+                    <div class="names">
+                        <div>
+                            <label for="town">Town</label>
+                            <input class="write" type="text" name="town">
+                        </div>
+                        <div>
+                            <label for="coun">County</label>
+                            <input class="write" type="text" name="county">
+                        </div>
+                    </div>
+                    <div class="names">
+                        <div>
+                            <label for="postCode">Post Code</label>
+                            <input class = "write" type="text" name="postcode">
+                        </div>
+                        <div>
+                            <label for="country">Country</label>
+                            <select class="write" name="country" >
+                                <option value="" disabled selected>Select your Country</option>
+                                <option value="UK">United Kingdom</option>
+                                <option value="US">United States of America</option>
+                                <option value="CH">China</option>
+                            </select>
+                        </div>   
+                    </div>
+                    <div>
+                       <div>
+                            <label for="description">Description</label>
+                            <input id = "describe" type="text" name="Description">
+                       </div> 
+                    </div>
+                    
+                    <div class="names">
+                        <div>
+                            <label for="cv"> Your CV</label>
+                            <input id = "file" type="file" id="myFile" name="filename" required>
+                        </div>
+                        <div>
+                            <input id="button" type="submit" name="submit" value="Submit">
+                        </div>
+                    </div>   
+                </form>
+            </div>
+        </body>
+    </html>
